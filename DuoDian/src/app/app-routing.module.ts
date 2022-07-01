@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { PortadaComponent } from './screen/portada/portada/portada.component';
 import { InicioComponent } from './screen/inicio/inicio/inicio.component';
@@ -16,6 +16,7 @@ import { RegistrarInvitadoComponent } from './screen/registrar-invitado/registra
 import { IniciarsesionRegistradoComponent } from './screen/iniciarsesion-registrado/iniciarsesion-registrado.component';
 import { MenuRegistradoComponent } from './screen/menu-registrado/menu-registrado.component';
 import { ConsultasRegistradoComponent } from './screen/consultas-registrado/consultas-registrado.component';
+import { PerfilInvitadoComponent } from './screen/perfil-invitado/perfil-invitado.component';
 
 
 const routes: Routes = [
@@ -35,7 +36,8 @@ const routes: Routes = [
   {path: 'registrarInvitado',component:RegistrarInvitadoComponent},
   {path: 'iniciarsesionInvitado',component:IniciarsesionRegistradoComponent},
   {path: 'menuRegistrado', component:MenuRegistradoComponent},
-  {path: 'consultasRegistrado',component:ConsultasRegistradoComponent}
+  {path: 'consultasRegistrado',component:ConsultasRegistradoComponent},
+  {path: 'perfilInivitado',component:PerfilInvitadoComponent}
 ];
 
 @NgModule({

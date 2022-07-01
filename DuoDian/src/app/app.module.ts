@@ -20,6 +20,7 @@ import { NodisponibleInvitadoComponent } from './screen/nodisponible-invitado/no
 import { IniciarsesionRegistradoComponent } from './screen/iniciarsesion-registrado/iniciarsesion-registrado.component';
 import { RegistrarInvitadoComponent } from './screen/registrar-invitado/registrar-invitado.component';
 import { MenuRegistradoComponent } from './screen/menu-registrado/menu-registrado.component';
+import { PerfilInvitadoComponent } from './screen/perfil-invitado/perfil-invitado.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { MenuRegistradoComponent } from './screen/menu-registrado/menu-registrad
     NodisponibleInvitadoComponent,
     IniciarsesionRegistradoComponent,
     RegistrarInvitadoComponent,
-    MenuRegistradoComponent
+    MenuRegistradoComponent,
+    PerfilInvitadoComponent
   ],
   imports: [
     BrowserModule,

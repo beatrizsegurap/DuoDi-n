@@ -1,0 +1,62 @@
+.font{
+    background-color: white;
+    width: 100%;
+    padding: auto;
+}
+.logo{
+    display: block;
+    max-width: 150px;
+}
+
+h2{
+    color: #575757;
+    margin-top: 2%;
+}
+
+h4{
+    color: #575757;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+h6{
+    color: #949494;
+    margin-bottom: 20px;
+
+}
+h5{
+    color: #575757;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+h3{
+    color: white;
+    margin-top: 116px;
+}
+button{
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 16px;
+    width: 300px;
+    min-height: 44px;
+    border: unset;
+    border-radius: 4px;
+    outline-color: rgb(52, 51, 51);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #FF9900;
+    color: #575757;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.icono{
+    max-width: 60px;
+}
+
+input{
+    width: 400px;
+    height: 200px;
+    margin-bottom: 40px;
+}
