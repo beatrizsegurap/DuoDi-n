@@ -1,0 +1,18 @@
+body{
+    background-color: #C4181A;
+}
+.btn-circle {
+    width: 70px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    display: block;
+    margin-left: 80%;
+}
+img{
+    display: block;
+    margin-top: 10%;
+}

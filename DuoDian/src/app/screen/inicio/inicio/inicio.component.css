@@ -1,0 +1,38 @@
+body{
+    background-color: #C4181A;
+    color: white;
+    
+}
+img{
+    display: block;
+    max-width: 300px;
+
+}
+
+.register{
+    color:white;
+}
+
+h1{
+    color: white;
+}
+h5{
+    color: white;
+}
+
+button{
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 16px;
+    width: 300px;
+    min-height: 44px;
+    border: unset;
+    border-radius: 4px;
+    outline-color: rgb(52, 51, 51);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: #575757;
+    font-weight: 600;
+    cursor: pointer;
+}

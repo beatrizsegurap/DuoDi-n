@@ -1,0 +1,47 @@
+body{
+    background-color: white;
+    width: 100%;
+}
+.logo{
+    display: block;
+    max-width: 180px;
+
+}
+div{
+    background-color: white;
+    width: 100%;
+}
+h1{
+    color: #575757;
+    margin-top: 20px;
+}
+button{
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 16px;
+    min-height: 44px;
+    border: 1px solid #B5B2B2;
+    border-radius: 4px;
+    outline-color: rgb(52, 51, 51);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color:white;
+    color: #575757;
+    font-weight: 600;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 30%;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.icono{
+    max-width: 60px;
+}
+
+.menu{
+    margin-top:5%;
+    margin-bottom: 5%;
+}
