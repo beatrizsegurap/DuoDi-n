@@ -47,3 +47,9 @@ button{
 .icono{
     max-width: 60px;
 }
+
+.nav-bar{
+    text-align:center;
+    margin-left: 200px;
+    align-items: center;
+}
