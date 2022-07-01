@@ -1,0 +1,49 @@
+.font{
+    background-color: white;
+    width: 100%;
+    padding: auto;
+}
+.logo{
+    display: block;
+    max-width: 150px;
+}
+
+h1{
+    color: #575757;
+    margin-top: 20px;
+}
+button{
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 16px;
+    min-height: 44px;
+    border: 1px solid #B5B2B2;
+    border-radius: 4px;
+    outline-color: rgb(52, 51, 51);
+    margin-bottom: 3%;
+    background-color:white;
+    color: #575757;
+    font-weight: 600;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 30%;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.icono{
+    max-width: 60px;
+}
+
+
+.advert{
+    background-color:#C4181A;
+    margin-bottom: 2%;
+
+}
+
+.advert-fix{
+   width: auto;
+}
