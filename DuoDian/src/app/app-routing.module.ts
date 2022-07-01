@@ -9,6 +9,8 @@ import { SolicitudesComponent } from './screen/solicitudes/solicitudes/solicitud
 import { ConsultasComponent } from './screen/consultas/consultas/consultas.component';
 import { ReclamosComponent } from './screen/reclamos/reclamos/reclamos.component';
 import { ProductosrecomendadosComponent } from './screen/productosrecomendados/productosrecomendados/productosrecomendados.component';
+import { RealizarConsultaComponent } from './screen/realizar-consulta/realizar-consulta.component';
+import { RealizarReclamoComponent } from './screen/realizar-reclamo/realizar-reclamo.component';
 
 
 const routes: Routes = [
@@ -21,7 +23,9 @@ const routes: Routes = [
   {path: 'solicitudes', component:SolicitudesComponent},
   {path: 'consultas', component:ConsultasComponent},
   {path: 'reclamos', component:ReclamosComponent},
-  {path: 'productosrecomendados', component:ProductosrecomendadosComponent}
+  {path: 'productosrecomendados', component:ProductosrecomendadosComponent},
+  {path: 'realizarConsulta', component:RealizarConsultaComponent},
+  {path: 'realizarReclamo', component:RealizarReclamoComponent}
 ];
 
 @NgModule({

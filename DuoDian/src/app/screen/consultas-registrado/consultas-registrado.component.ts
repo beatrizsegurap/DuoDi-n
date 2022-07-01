@@ -3,11 +3,11 @@ import { Consultas } from 'src/app/model/consultas';
 import { PreguntasFrecuentesService } from 'src/app/services/preguntas-frecuentes.service';
 
 @Component({
-  selector: 'app-consultas',
-  templateUrl: './consultas.component.html',
-  styleUrls: ['./consultas.component.css']
+  selector: 'app-consultas-registrado',
+  templateUrl: './consultas-registrado.component.html',
+  styleUrls: ['./consultas-registrado.component.css']
 })
-export class ConsultasComponent implements OnInit {
+export class ConsultasRegistradoComponent implements OnInit {
   public preguntas: Consultas[]=[];
   constructor(private PreguntasFrecuentes: PreguntasFrecuentesService) { }
 
