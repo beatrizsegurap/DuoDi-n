@@ -11,6 +11,11 @@ import { ReclamosComponent } from './screen/reclamos/reclamos/reclamos.component
 import { ProductosrecomendadosComponent } from './screen/productosrecomendados/productosrecomendados/productosrecomendados.component';
 import { RealizarConsultaComponent } from './screen/realizar-consulta/realizar-consulta.component';
 import { RealizarReclamoComponent } from './screen/realizar-reclamo/realizar-reclamo.component';
+import { NodisponibleInvitadoComponent } from './screen/nodisponible-invitado/nodisponible-invitado.component';
+import { RegistrarInvitadoComponent } from './screen/registrar-invitado/registrar-invitado.component';
+import { IniciarsesionRegistradoComponent } from './screen/iniciarsesion-registrado/iniciarsesion-registrado.component';
+import { MenuRegistradoComponent } from './screen/menu-registrado/menu-registrado.component';
+import { ConsultasRegistradoComponent } from './screen/consultas-registrado/consultas-registrado.component';
 
 
 const routes: Routes = [
@@ -25,7 +30,12 @@ const routes: Routes = [
   {path: 'reclamos', component:ReclamosComponent},
   {path: 'productosrecomendados', component:ProductosrecomendadosComponent},
   {path: 'realizarConsulta', component:RealizarConsultaComponent},
-  {path: 'realizarReclamo', component:RealizarReclamoComponent}
+  {path: 'realizarReclamo', component:RealizarReclamoComponent},
+  {path: 'alert',component:NodisponibleInvitadoComponent},
+  {path: 'registrarInvitado',component:RegistrarInvitadoComponent},
+  {path: 'iniciarsesionInvitado',component:IniciarsesionRegistradoComponent},
+  {path: 'menuRegistrado', component:MenuRegistradoComponent},
+  {path: 'consultasRegistrado',component:ConsultasRegistradoComponent}
 ];
 
 @NgModule({

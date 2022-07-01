@@ -16,6 +16,10 @@ import { ProductosrecomendadosComponent } from './screen/productosrecomendados/p
 import { ConsultasRegistradoComponent } from './screen/consultas-registrado/consultas-registrado.component';
 import { RealizarConsultaComponent } from './screen/realizar-consulta/realizar-consulta.component';
 import { RealizarReclamoComponent } from './screen/realizar-reclamo/realizar-reclamo.component';
+import { NodisponibleInvitadoComponent } from './screen/nodisponible-invitado/nodisponible-invitado.component';
+import { IniciarsesionRegistradoComponent } from './screen/iniciarsesion-registrado/iniciarsesion-registrado.component';
+import { RegistrarInvitadoComponent } from './screen/registrar-invitado/registrar-invitado.component';
+import { MenuRegistradoComponent } from './screen/menu-registrado/menu-registrado.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +36,11 @@ import { RealizarReclamoComponent } from './screen/realizar-reclamo/realizar-rec
     ProductosrecomendadosComponent,
     ConsultasRegistradoComponent,
     RealizarConsultaComponent,
-    RealizarReclamoComponent
+    RealizarReclamoComponent,
+    NodisponibleInvitadoComponent,
+    IniciarsesionRegistradoComponent,
+    RegistrarInvitadoComponent,
+    MenuRegistradoComponent
   ],
   imports: [
     BrowserModule,
