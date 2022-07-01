@@ -1,3 +1,22 @@
-nav{
+div{
     background-color: white;
+}
+
+button{
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 16px;
+    min-height: 44px;
+    background-color:white;
+    color: #575757;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 2%;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+.icono{
+    max-width: 55px;
 }
